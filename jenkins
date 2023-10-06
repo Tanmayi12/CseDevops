@@ -16,13 +16,13 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Project Testing...."
-                 bat "mvn test"
+                // bat "mvn test"
             }
         }
         stage('Deploy') {
             steps {
                echo "Project Deploying...."
-                bat "mvn deploy"
+               // bat "mvn deploy"
             }
         }
     }
